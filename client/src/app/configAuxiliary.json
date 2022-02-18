@@ -1,0 +1,362 @@
+{
+	"configAccessLayotBoxLogin": {
+		"title": "Вход в личный кабинет",
+		"path": "/registration",
+		"message": "Еще не зарегистрировались?",
+		"labelBtn": "Регистрация",
+		"isLogin": true,
+		"messageRecovery": "Забыли пароль?",
+		"pathRecovery": "/recovery-password",
+		"labelBtnRecovery": "Восстановление"
+	},
+	"configAccessLayotBoxRegistration": {
+		"title": "Регистрация аккаунта",
+		"path": "/login",
+		"message": "Уже имеете учетную запись?",
+		"labelBtn": "Войти",
+		"isLogin": false
+	},
+	"configAccessLayotBoxRecovery": {
+		"title": "Восстановление пароля",
+		"path": "/login",
+		"message": "Вспомнили свои учетные данные?",
+		"labelBtn": "Войти",
+		"isLogin": false,
+		"recoveryPhrase": "Если процесс восстановления завершится успешно, Вы будете переведены на страницу Авторизации, где вам нужно будет ввести свои учетные данные + новый пароль."
+	},
+	"warrantyControl": [
+		{ "year": 1, "price": 2000, "text": "год" },
+		{ "year": 2, "price": 4000, "text": "года" },
+		{ "year": 5, "price": 10000, "text": "лет" }
+	],
+	"deliveryTime": [
+		{ "value": "8:00 - 10:00", "label": "8:00 - 10:00" },
+		{ "value": "10:00 - 12:00", "label": "10:00 - 12:00" },
+		{ "value": "12:00 - 14:00", "label": "12:00 - 14:00" },
+		{ "value": "14:00 - 16:00", "label": "14:00 - 16:00" },
+		{ "value": "16:00 - 18:00", "label": "16:00 - 18:00" },
+		{ "value": "18:00 - 20:00", "label": "18:00 - 20:00" },
+		{ "value": "20:00 - 22:00", "label": "20:00 - 22:00" }
+	],
+	"aboutUsStatistics": [
+		{ "number": 2005, "label": "год появления на рынке" },
+		{ "number": 10000, "label": "складских помещений", "suffix": true },
+		{ "number": 60, "label": "квалифицированных сотрудников", "suffix": true },
+		{ "number": 20, "label": "ведущих мировых брендов", "suffix": true },
+		{ "number": 3000, "label": "SKU", "suffix": true }
+	],
+	"aboutUsWeList": [
+		{
+			"message": "слаженная команда людей, любящих спорт и здоровый образ жизни знающих свое дело и ориентирующихся во всех нюансах фитнес оборудования;"
+		},
+		{
+			"message": "широкая номенклатура качественной продукции ведущих мировых брендов с огромным выбором товаров в наличии;"
+		},
+		{
+			"message": "склад запчастей для обеспечения качественного сервиса и бесперебойной работы оборудования;"
+		},
+		{
+			"message": "полный послепродажный сервис с информационной и технической поддержкой;"
+		},
+		{ "message": "строгое соблюдение всех обязательств перед партнерами;" },
+		{
+			"message": "отличные цены и эксклюзивные условия для постоянных партнеров."
+		}
+	],
+	"aboutUsWeImages": [
+		{ "imagesPath": "trainingApparatus.png", "name": "Тренажерный зал" },
+		{ "imagesPath": "swimmingPool.png", "name": "Бассейн нашей компании" },
+		{
+			"imagesPath": "manTraning.png",
+			"name": "Сотрудник WellFitness занимается спортом на тренажере Well"
+		},
+		{ "imagesPath": "hallFitness.png", "name": "Спортивные тренажеры" }
+	],
+	"configSortedGoods": {
+		"name": {
+			"name": "Наименование товара",
+			"path": "name"
+		},
+		"price": {
+			"name": "Цена",
+			"path": "price"
+		},
+		"category": {
+			"name": "Категория",
+			"path": "category"
+		},
+		"totalInStock": {
+			"name": "Всего на складе",
+			"path": "totalInStock"
+		}
+	},
+	"configSortedCategory": {
+		"path": "position",
+		"order": "asc"
+	},
+	"menuHead": {
+		"data": [
+			{ "label": "Home", "path": "/home" },
+			{ "label": "О нас", "path": "/about-us" },
+			{ "label": "Бренды", "path": "/brands" },
+			{ "label": "Контакты", "path": "/contacts" }
+		],
+		"classesNav": "header__menu menu-header",
+		"classesList": "menu-header__list",
+		"classesLink": "menu-header__link"
+	},
+	"menuBrend": {
+		"data": [
+			{ "label": "Bowflex", "path": "/brands/61f84954a6bc9a12678f0bd2" },
+			{ "label": "Sole", "path": "/brands/61f84954a6bc9a12678f0be6" },
+			{ "label": "NeoFit", "path": "/brands/61f84954a6bc9a12678f0bdd" }
+		],
+		"classesNav": "brends__menu menu-brends",
+		"classesList": "menu-brends__list",
+		"classesLink": "menu-brends__link"
+	},
+	"sliderContacts": ["slide1.png", "slide2.jpg", "slide3.jpg", "slide4.jpg"],
+	"contactsDepartments": [
+		{
+			"title": "Отдел продаж",
+			"phone": "+7 (499) 677-72-22",
+			"mail": [
+				{
+					"adress": "info@wellfitness.ru",
+					"sub": "по общим вопросам вопросам сотрудничества, жалобам и предложениям"
+				},
+				{
+					"adress": "zakaz@wellfitness.ru",
+					"sub": "для приема дилерских заказов на оборудование, аксессуары, запчасти"
+				},
+				{
+					"adress": "agent@wellfitness.ru",
+					"sub": "для приема агентских заказов"
+				}
+			]
+		},
+		{
+			"title": "Отдел бухгалтерии",
+			"phone": "+7 (499) 677-74-22",
+			"mail": [{ "adress": "buh@wellfitness.ru" }]
+		},
+		{
+			"title": "Сервисная служба",
+			"phone": "+7 (499) 677-31-90",
+			"mail": [{ "adress": "service@wellfitness.ru" }]
+		}
+	],
+	"contactsStore": [
+		{
+			"head": "Склад, Москва",
+			"adress": "Московская область, деревня Гольёво, д. 3, корп. А",
+			"contact": "8-497-673-21-11",
+			"type": "phone"
+		},
+		{
+			"head": "Дополнительный склад, Москва",
+			"adress": "г. Москва, Промышленная улица, д. 11, корп. А",
+			"contact": "8-885-541-91-22",
+			"type": "phone"
+		}
+	],
+	"contactsMagazine": [
+		{
+			"head": "Спорт Дома",
+			"adress": "м. Мякинино, ул. Международная 12",
+			"time": "10:00 - 21:00",
+			"contact": "+7 (499) 677-56-32",
+			"type": "phone"
+		},
+		{
+			"head": "Тренмаркет.ру",
+			"adress": "Ленинский пр-т, 99",
+			"time": "10:00 - 21:00",
+			"contact": "tren-market@.ru",
+			"type": "email"
+		},
+		{
+			"head": "Goldgum",
+			"adress": "Сколковское шоссе, 31, ТЦ \"СпортХит\"",
+			"time": "10:00 - 21:00",
+			"contact": "+7 (499) 657-31-11",
+			"type": "phone"
+		},
+		{
+			"head": "Sportpremier",
+			"adress": "м. Румянцево, БП \"Румянцево\", блок Д, 1 этаж",
+			"time": "10:00 - 21:00",
+			"contact": "+7 (499) 231-17-98",
+			"type": "phone"
+		},
+		{
+			"head": "Wellgallery",
+			"adress": "Новорижское шоссе, 5 км от МКАД, ТРК \"Рига Молл\" 3 этаж",
+			"time": "10:00 - 21:00",
+			"contact": "wellgallery@.ru",
+			"type": "email"
+		},
+		{
+			"head": "Capral",
+			"adress": "Калужское шоссе, 1 км от МКАД, ТЦ \"Славянский Град\" 1 этаж",
+			"time": "10:00 - 21:00",
+			"contact": "capral@.com",
+			"type": "email"
+		}
+	],
+	"contactsInternetMagazine": [
+		{ "title": "zonasporta.com", "link": "#" },
+		{ "title": "strongpeople.com", "link": "#" },
+		{ "title": "sporttrainer.com", "link": "#" },
+		{ "title": "sportNutrition.com", "link": "#" },
+		{ "title": "sport-faza.com", "link": "#" },
+		{ "title": "los-forest.com", "link": "#" },
+		{ "title": "titan.com", "link": "#" },
+		{ "title": "crolBrus.com", "link": "#" },
+		{ "title": "armada.com", "link": "#" },
+		{ "title": "carnaval-sport.com", "link": "#" },
+		{ "title": "start-signal.com", "link": "#" },
+		{ "title": "prosport.com", "link": "#" },
+		{ "title": "climber.com", "link": "#" },
+		{ "title": "nutroven-sport.com", "link": "#" },
+		{ "title": "razryd.com", "link": "#" },
+		{ "title": "sportAmerica.com", "link": "#" }
+	],
+	"contactBadCompany": [
+		"титанспорт.рф",
+		"https://baviro.ru",
+		"https://maximus-fitness.com",
+		"https://afina-fitness.com/",
+		"https://spartafittness.com",
+		"https://body-like.ru",
+		"https://center-fitness.com",
+		"http://trenazhery.ru",
+		"www.megapark.ru",
+		"https://freefitness.ru",
+		"https://edem-fitness.ru",
+		"http://elmall67.ru",
+		"http://tren24.ru",
+		"http://elmall78.ru",
+		"http://volzhskiy.elmall34.ru"
+	],
+	"colorArrayWelcomeSlider": {
+		"leftBlock": [
+			{
+				"backColor": "linear-gradient(to bottom, #febbbb 0%,#fe9090 66%,#fe9090 66%,#ff8989 100%)",
+				"prevTitle": "Оборудование, которое вам точно понравится",
+				"title": "WellFitness - это будущее технологий спорта, уже сегодня"
+			},
+			{
+				"backColor": "linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%)",
+				"prevTitle": "Оборудование, которое вам точно понравится",
+				"title": "Инновации сейчас"
+			},
+			{
+				"backColor": "#004562",
+				"prevTitle": "Оборудование, которое вам точно понравится",
+				"title": "Покоряй вершины спорта"
+			},
+			{
+				"backColor": "#c9cf88",
+				"prevTitle": "Оборудование, которое вам точно понравится",
+				"title": "Освободи сознание - преобрази мир вокруг"
+			},
+			{
+				"backColor": "#bdb3b2",
+				"prevTitle": "Оборудование, которое вам точно понравится",
+				"title": "Почувствуй силу движения"
+			},
+			{
+				"backColor": "#021e21",
+				"prevTitle": "Оборудование, которое вам точно понравится",
+				"title": "Адаптируйся к меняющимся условиям"
+			},
+			{
+				"backColor": "#f1c0e2",
+				"prevTitle": "Оборудование, которое вам точно понравится",
+				"title": "Человек издавна создан для движения"
+			},
+			{
+				"backColor": "#305699",
+				"prevTitle": "Оборудование, которое вам точно понравится",
+				"title": "HARD WORK!!!"
+			}
+		],
+		"rightBlock": [
+			"slide1.jpg",
+			"slide2.jpg",
+			"slide3.jpg",
+			"slide4.jpg",
+			"slide5.jpg",
+			"slide6.jpg",
+			"slide7.jpg",
+			"slide8.jpg"
+		]
+	},
+	"aboutUsStars": [
+		{
+			"path": "Anastasia Shuraeva.jpg",
+			"title": "Anastasia Shuraeva"
+		},
+		{
+			"path": "Cerano Gon Faul.jpg",
+			"title": "Cerano Gon Faul"
+		},
+		{
+			"path": "Anna Bandareva.jpg",
+			"title": "Anna Bandareva"
+		},
+		{
+			"path": "Jon Bishop.jpg",
+			"title": "Jon Bishop"
+		},
+		{
+			"path": "Patricia Hildebrandt.jpg",
+			"title": "Patricia Hildebrandt"
+		}
+	],
+	"adminHeaderTable": [
+		"Действия",
+		"_id",
+		"Наименование",
+		"Стоимость",
+		"Описание",
+		"Категория",
+		"Фото",
+		"Кол-во"
+	],
+	"geographyCity": [
+		{ "_id": "moscow", "label": "Москва", "counShops": "1 магазин" },
+		{
+			"_id": "stpetergsburg",
+			"label": "Санкт-Петербург",
+			"counShops": "3 магазина"
+		},
+		{ "_id": "tula", "label": "Тула", "counShops": "5 магазинов" },
+		{ "_id": "yaroslavl", "label": "Ярославль", "counShops": "2 магазина" },
+		{ "_id": "voronezh", "label": "Воронеж", "counShops": "1 магазин" },
+		{ "_id": "kirov", "label": "Киров", "counShops": "2 магазина" },
+		{ "_id": "omsk", "label": "Омск", "counShops": "3 магазина" },
+		{ "_id": "novosibirsk", "label": "Новосибирск", "counShops": "1 магазин" },
+		{ "_id": "tomsk", "label": "Томск", "counShops": "5 магазинов" },
+		{ "_id": "murmansk", "label": "Мурманск", "counShops": "2 магазина" },
+		{ "_id": "samara", "label": "Самара", "counShops": "1 магазин" },
+		{ "_id": "orenburg", "label": "Оренбург", "counShops": "1 магазин" },
+		{ "_id": "vladivostok", "label": "Владивосток", "counShops": "1 магазин" },
+		{ "_id": "rostov", "label": "Ростов", "counShops": "1 магазин" }
+	],
+	"configSpinnerDark": {
+		"color1": "color1"
+	},
+	"configHeaderControllerNo": {
+		"noController": true
+	},
+	"configStylesError": {
+		"textAlign": "center",
+		"color": "red",
+		"fontSize": "18px",
+		"margin": "20px 0px 10px 0px",
+		"fontWeight": 700,
+		"fontStyle": "italic"
+	}
+}

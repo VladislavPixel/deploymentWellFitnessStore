@@ -1,0 +1,6 @@
+[
+	{"customId": "b-all", "name": "Все бренды"},
+	{"customId": "b-w1", "name": "Для дома"},
+	{"customId": "b-w2", "name": "Для фитнес клубов"},
+	{"customId": "b-w3", "name": "Для боксерских клубов"}
+]

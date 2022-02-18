@@ -1,0 +1,138 @@
+.footer {
+	background: #1a1a25;
+	box-shadow: 0px 10px 50px rgba(133, 143, 164, 0.05);
+	&__row {
+		padding: 30px 30px 30px 30px;
+		display: flex;
+		flex-wrap: wrap;
+		@media (max-width: 720px) {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 20px;
+		}
+	}
+	&__column {
+		flex: 0 1 50%;
+		margin-bottom: 35px;
+		@media (max-width: 720px) {
+			flex: 0 1 100%;
+			margin-bottom: 22px;
+			text-align: center;
+			&:last-child,
+			&:first-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	&__button {
+		background: rgba(133, 143, 164, 0.15);
+		border-radius: 5px;
+		padding: 14px 34px 14px 14px;
+		line-height: 140%;
+		color: #858fa4;
+		position: relative;
+		transition: all 0.5s ease 0s;
+		&:before {
+			content: "";
+			position: absolute;
+			background: url("../iconsForScss/paper-plane.svg") no-repeat;
+			top: 12px;
+			right: 7px;
+			width: 21px;
+			height: 20px;
+		}
+		@media (min-width: 992px) {
+			&:hover {
+				color: #f53b49;
+				transform: scale(0.9);
+			}
+		}
+	}
+	&__btn-modal {
+		transition: all 0.5s ease 0s;
+		margin: 20px 0px;
+		&.active {
+			opacity: 0.5;
+			background: #1a1a25;
+			pointer-events: none;
+		}
+	}
+	&__phone {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 140%;
+		color: #858fa4;
+		a {
+			color: #858fa4;
+			font-size: 18px;
+			line-height: 120%;
+			transition: all 0.5s ease 0s;
+		}
+		margin-bottom: 15px;
+		@media (min-width: 992px) {
+			&:hover {
+				a {
+					color: #fff;
+				}
+			}
+		}
+	}
+	&__email {
+		margin-bottom: 10px;
+		a {
+			transition: all 0.5s ease 0s;
+			font-size: 18px;
+			color: #fff;
+		}
+		@media (min-width: 992px) {
+			&:hover {
+				a {
+					color: #f53b49;
+				}
+			}
+		}
+	}
+	&__email-index {
+		color: #f53b49;
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	&__adress {
+		font-size: 18px;
+		color: #fff;
+		line-height: 130%;
+		@media (max-width: 466px) {
+			font-size: 15px;
+		}
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+		div {
+			margin-bottom: 7px;
+		}
+	}
+	label {
+		display: block;
+		font-size: 16px;
+		line-height: 150%;
+		color: #384255;
+		margin-bottom: 5px;
+	}
+	input {
+		width: 100%;
+		padding: 8px 50px 8px 8px;
+		border: 1px solid rgba(144, 156, 181, 0.3);
+		border-radius: 6px !important;
+		background: #f7f7f7;
+		height: 50px;
+		font-size: 17px;
+		&.error {
+			border: 1px solid red;
+		}
+	}
+	&__icon-modal {
+		margin-bottom: 15px;
+	}
+}

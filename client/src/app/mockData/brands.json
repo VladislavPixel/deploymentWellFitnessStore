@@ -1,0 +1,287 @@
+[
+	{
+		"_id": "b-1",
+		"imagesPath": "bowflex.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "Bowflex",
+		"categorySubject": "Беговые дорожки",
+		"additionalPage": {
+			"imgPrefix": "/img/brands/bowflexAdditional/",
+			"headSection": {
+				"message": "Bowflex — это торговая марка серии тренажеров для фитнеса. Компания, базирующаяся в Ванкувере, штат Вашингтон, продает свою продукцию через прямые, розничные и международные каналы. Первый продукт Bowflex, Bowflex 2000X, был создан в 1986 году.",
+				"imagesPath": "headImage.png",
+				"brandSite": "www.bowflex.ru",
+				"link": "https://bowflex-russia.ru/"
+			},
+			"subHeadSection": {
+				"message": [
+					"Bowflex – эксперт в области массажного и фитнес-оборудования. Компания занимает лидирующие позиции в мире.",
+					"Оборудование Bowflex – это воплощение последних разработок в индустрии здорового образа жизни, фитнеса и массажа. В совокупности со смелым дизайном каждый продукт – шедевр. Продажи продукции компании осуществляются через собственную розничную сеть от Калининграда до Владивостока.",
+					"Здоровье – главный ресурс человечества. Красота, долголетие, крепкий иммунитет – такой эффект от «вакцины здоровья» Bowflex. Технологии, позволяющие моментально восстанавливать энергию и силы, приводить тело в отличную форму и поддерживать идеальный вес, делают продукцию компании бесценно полезной."
+				]
+			},
+			"content": {
+				"message": [
+					"Bowflex - это тренинг будущего. Мы популяризируем только качественный тренинг. Высокий уровень сервиса. Мы тщательно производим любые виды тренажеров — от кардио до силовых, а также мебель и аксессуары.",
+					"Компания Bowflex – оборудование для фитнес-клубов, тренажерных залов, фитнес-студий и центров диагностики и реабилитации. Мы не просто поставляем профессиональные тренажеры для спортзала, мы создаем особую атмосферу, которая привлечет клиентов и увеличит прибыль за счет интереса к спорту."
+				],
+				"imagesPath": "trainingSport.jpg"
+			},
+			"quote": "Бездействие порождает беспокойство и страх. Действие — уверенность и смелость. Если ты хочешь победить страх, не сиди дома и не думай об этом. Встань и действуй. (Мэг Джей)",
+			"sliderImages": ["slide1.jpg", "slide2.jpg", "slide3.jpg"],
+			"dinamicImage": [
+				{
+					"path": "Anastasiya Gepp.jpg",
+					"title": "Anastasiya Gepp"
+				},
+				{
+					"path": "Alexandra De.jpg",
+					"title": "Alexandra De"
+				},
+				{
+					"path": "Lazar Angel.jpg",
+					"title": "Lazar Angel"
+				},
+				{
+					"path": "Mano Chin.jpg",
+					"title": "Mano Chin"
+				},
+				{
+					"path": "Cruz Bredli Cuper.jpg",
+					"title": "Cruz Bredli Cuper"
+				}
+			]
+		}
+	},
+	{
+		"_id": "b-2",
+		"imagesPath": "boxingBar.png",
+		"categoryHead": "Для боксерских клубов",
+		"name": "BoxingBar"
+	},
+	{
+		"_id": "b-3",
+		"imagesPath": "cardioPower.png",
+		"categoryHead": "Для дома",
+		"name": "CardioPower",
+		"categorySubject": "Беговые дорожки"
+	},
+	{
+		"_id": "b-4",
+		"imagesPath": "cardioPowerPro.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "CardioPowerPro"
+	},
+	{
+		"_id": "b-5",
+		"imagesPath": "doubleFish.png",
+		"categoryHead": "Для дома",
+		"name": "doubleFish"
+	},
+	{
+		"_id": "b-6",
+		"imagesPath": "eclipse.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "Eclipce"
+	},
+	{
+		"_id": "b-7",
+		"imagesPath": "gym80.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "Gym80",
+		"categorySubject": "Эллиптические"
+	},
+	{
+		"_id": "b-8",
+		"imagesPath": "hyfit.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "Hyfit",
+		"categorySubject": "Эллиптические"
+	},
+	{
+		"_id": "b-9",
+		"imagesPath": "kernel.png",
+		"categoryHead": "Для дома",
+		"name": "Kernel",
+		"categorySubject": "Эллиптические"
+	},
+	{
+		"_id": "b-10",
+		"imagesPath": "meriden.png",
+		"categoryHead": "Для боксерских клубов",
+		"name": "Meriden",
+		"categorySubject": "Беговые дорожки"
+	},
+	{
+		"_id": "b-11",
+		"imagesPath": "nautilus.png",
+		"categoryHead": "Для дома",
+		"name": "Nautilus",
+		"categorySubject": "Беговые дорожки"
+	},
+	{
+		"_id": "b-12",
+		"imagesPath": "neo.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "NEO",
+		"categorySubject": "Эллиптические",
+		"additionalPage": {
+			"imgPrefix": "/img/brands/neoAdditional/",
+			"headSection": {
+				"message": "NeoFit - это один из самых главных партнеров WellFitness. Они предоставляют сеть отличных спортивных залов и в том числе помогают с производством некоторых тренажеров. Оставаясь на передовой вместе с Well.",
+				"imagesPath": "headImage.png",
+				"brandSite": "www.neo-fit.ru",
+				"link": "https://kurkino.n-fit.ru/"
+			},
+			"subHeadSection": {
+				"message": [
+					"тренажерный зал с тренажерами последнего поколения PRECOR и оборудованием HOIST, LIFEFITNESS, WellFitness, Bowflex;",
+					"групповые программы для любого уровня подготовки;",
+					"разнообразные программы единоборств;",
+					"бассейн, который удивит вас своим размахом от WellFitness;",
+					"банный комплекс для отдыха и спа-процедур от Well;",
+					"также мы проводим логистику и многое другое."
+				]
+			},
+			"content": {
+				"message": [
+					"Фитнес-клубы NeoFit следят за актуальными тенденциями в мире спорта - мы готовы удивить вас современным оборудованием и самыми модными программами групповых занятий. А тренеры помогут разработать тренировку, максимально отвечающую вашим индивидуальным целям.",
+					"Особое внимание мы уделяем юным спортсменам. Специалисты, которые работают с вашими детьми, регулярно проходят обучение. Мы проводим не только спортивные занятия, но и готовим ребят к школе и обучаем актерскому мастерству. Успехи наших детей - лучшая награда для нас.",
+					"Мы знаем, что для спорта нет неподходящего времени, именно поэтому все клубы сети работают круглосуточно.",
+					"Стать здоровым и активным просто. Для этого достаточно приобрести абонемент фитнес-клуба NeoFit. Тем более, что на клубные карты действует система скидок. Позвоните нам, и мы подробно ответим на все ваши вопросы."
+				],
+				"imagesPath": "fitness2.jpg"
+			},
+			"quote": "Триумф не дарует настоящей силы, её формирует борьба. (Арнольд Шварценеггер)",
+			"sliderImages": ["slide1.jpg", "slide2.jpg", "slide3.jpg"],
+			"dinamicImage": [
+				{
+					"path": "Behrouz Timo.jpg",
+					"title": "Behrouz Timo"
+				},
+				{
+					"path": "Dani Mou.jpg",
+					"title": "Dani Mou"
+				},
+				{
+					"path": "Miro Brand.jpg",
+					"title": "Miro Brand"
+				},
+				{
+					"path": "Victoria Coman.jpg",
+					"title": "Victoria Coman"
+				},
+				{
+					"path": "Sahil Nombas.jpg",
+					"title": "Sahil Nombas"
+				}
+			]
+		}
+	},
+	{
+		"_id": "b-13",
+		"imagesPath": "octane.png",
+		"categoryHead": "Для дома",
+		"name": "Octane",
+		"categorySubject": "Велотренажеры"
+	},
+	{
+		"_id": "b-14",
+		"imagesPath": "optima.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "Optima"
+	},
+	{
+		"_id": "b-15",
+		"imagesPath": "original.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "Original",
+		"categorySubject": "Степперы"
+	},
+	{
+		"_id": "b-16",
+		"imagesPath": "proSkiSimulator.png",
+		"categoryHead": "Для дома",
+		"name": "Pro ski Simulator",
+		"categorySubject": "Горнолыжные"
+	},
+	{
+		"_id": "b-17",
+		"imagesPath": "scholle.png",
+		"categoryHead": "Для дома",
+		"name": "Scholle",
+		"categorySubject": "Горнолыжные"
+	},
+	{
+		"_id": "b-18",
+		"imagesPath": "schwinn.png",
+		"categoryHead": "Для дома",
+		"name": "Schwinn",
+		"categorySubject": "Степперы"
+	},
+	{
+		"_id": "b-19",
+		"imagesPath": "smith.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "Smith",
+		"categorySubject": "Степперы"
+	},
+	{
+		"_id": "b-20",
+		"imagesPath": "smithPro.png",
+		"categoryHead": "Для боксерских клубов",
+		"name": "SmithPro"
+	},
+	{
+		"_id": "b-21",
+		"imagesPath": "sole.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "Sole",
+		"categorySubject": "Степперы",
+		"additionalPage": {
+			"imgPrefix": "/img/brands/soleAdditional/",
+			"headSection": {
+				"message": "SOLE - это будущее, и оно ближе, чем ты думаешь!",
+				"imagesPath": "headImage.png",
+				"brandSite": "www.sole.ru",
+				"link": "https://sole-fitness-russia.ru/"
+			},
+			"subHeadSection": {
+				"message": [
+					"Компания «Sole» вышла на российский рынок в 2010 году. Сегодня мы производим и поставляем качественное спортивное оборудование для дома, спортивных залов и фитнес- центров по всей России. Наш ассортимент: беговые дорожки, велотренажёры, эллиптические тренажёры, гребные тренажёры, силовые тренажёры, батуты, медицинское оборудование. Наша дилерская сеть охватывает 67 городов. Продукция компании производится на 6 фабриках в Китае и на Тайване; в производстве задействовано до 4 500 специалистов высокой квалификации.",
+					"Мы сотрудничаем с  «Dyaco International» ( «Sole» является официальным дистрибьютором оборудования «Spirit fitness» в России), с компаниями «Nike» и  «Bridgestone»; являемся спонсором команды  «Илья Муромец», входящей в состав клуба  «Патриот»  (Саратов); поставляем оборудование для физической подготовки полицейских и военнослужащих ВС РФ; обладаем рядом международных наград."
+				]
+			},
+			"content": {
+				"message": [
+					"Sole Fitness - один из немногих производителей, занимающий лидирующие позиции в сегменте домашнего и профессионального фитнес оборудования в течение последний трех десятилетий. Тренажеры Sole Fitness - это высокие стандарты качества, современный дизайн, удобный интуитивно понятный интерфейс.",
+					"Соле Фитнес является лучшей в соотношении цены и качества, стараясь удерживать гибкую ценовую политику. А главным приоритетом компании всегда было и будет внимание к покупателю. Наша компания является официальным дилером тренажеров Sole Fitness на территории Российской Федерации, что гарантирует ряд преимуществ при покупке. На все спортивное оборудование Sole Fitness предоставляется полная гарантия и постгарантийное обслуживание."
+				],
+				"imagesPath": "fitness.jpg"
+			},
+			"quote": "Тот день, когда вы полностью возьмёте на себя ответственность за собственное будущее и прекратите искать оправдание сомнениям, станет днём начала движения к вершинам. (О. Джей Симпсон)",
+			"sliderImages": ["slide1.jpg", "slide2.jpg", "slide3.jpg"]
+		}
+	},
+	{
+		"_id": "b-22",
+		"imagesPath": "true.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "True",
+		"categorySubject": "Степперы"
+	},
+	{
+		"_id": "b-23",
+		"imagesPath": "varioSling.png",
+		"categoryHead": "Для дома",
+		"name": "VarioSling",
+		"categorySubject": "Горнолыжные"
+	},
+	{
+		"_id": "b-24",
+		"imagesPath": "wellsystem.png",
+		"categoryHead": "Для фитнес клубов",
+		"name": "WellSystem",
+		"categorySubject": "Гребные тренажеры"
+	}
+]

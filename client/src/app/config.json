@@ -1,0 +1,6 @@
+{
+	"endPoinForImage": "http://localhost:8080/",
+	"endPointForApi": "http://localhost:8080/api/",
+	"isFirebase": false,
+	"oldEndPointFirebase": "https://fitness-store-e725a-default-rtdb.europe-west1.firebasedatabase.app/"
+}

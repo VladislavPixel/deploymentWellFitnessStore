@@ -1,0 +1,29 @@
+.message {
+	width: 100%;
+	text-align: center;
+	&__icon {
+		width: 90px;
+		height: 90px;
+		margin-bottom: 20px;
+	}
+	&__title {
+		font-weight: 800;
+		font-size: 22px;
+		line-height: 105%;
+		color: green;
+		margin-bottom: 10px;
+		&.white-theme {
+			color: #fff;
+		}
+	}
+	&__sub-title {
+		font-size: 18px;
+		line-height: 150%;
+		color: #ff9e11;
+		padding-top: 5px;
+		border-top: 1px solid #ff9e11;
+		&.white-theme {
+			color: #fff;
+		}
+	}
+}

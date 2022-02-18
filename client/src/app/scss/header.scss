@@ -1,0 +1,239 @@
+.header {
+	position: relative;
+	background: #1a1a25;
+	margin-bottom: 15px;
+	z-index: 100;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 24px 15px 21px;
+		&_second {
+			padding: 16px 15px;
+			border-top: 1px solid rgba(133, 143, 164, 0.15);
+			border-bottom: 2px solid rgba(133, 143, 164, 0.15);
+			@media (max-width: 550px) {
+				flex-direction: column;
+			}
+		}
+		@media (max-width: 470px) {
+			align-items: stretch;
+		}
+		&_first {
+			@media (max-width: 850px) {
+				flex-direction: column;
+			}
+			align-items: center;
+		}
+	}
+	&__logo {
+		margin-right: 15px;
+		@media (max-width: 850px) {
+			margin: 0px 0px 25px 0px;
+		}
+	}
+	&__buttons {
+		position: relative;
+		&:before {
+			content: "";
+			position: absolute;
+			height: 30px;
+			width: 1px;
+			background: rgba(133, 143, 164, 0.15);
+			top: -25%;
+			left: -30px;
+			transition: all 0.6s ease 0s;
+		}
+		@media (min-width: 992px) {
+			&:hover {
+				&:before {
+					background: #f53b49;
+				}
+			}
+		}
+		@media (max-width: 850px) {
+			align-self: flex-end;
+		}
+	}
+	&__btn {
+		display: inline-block;
+		line-height: 140%;
+		color: #fff;
+		transition: all 0.6s ease 0s;
+		cursor: pointer;
+		&:first-child {
+			margin-right: 14px;
+		}
+		@media (min-width: 992px) {
+			&:hover {
+				color: #f53b49;
+			}
+		}
+	}
+	&__catalog-btn {
+		font-weight: bold;
+		line-height: 17px;
+		color: #fff;
+		padding: 12px 20px 13px 60px;
+		background: #f53b49;
+		border-radius: 4px;
+		position: relative;
+		transition: all 0.6s ease 0s;
+		box-shadow: 4px 4px 2px 3px #380a0e;
+		margin-right: 50px;
+		&:before {
+			position: absolute;
+			top: 25%;
+			left: 20px;
+			content: "";
+			width: 16px;
+			height: 16px;
+			background: url("../iconsForScss/cube.png") no-repeat;
+		}
+		@media (min-width: 992px) {
+			&:hover {
+				background: #a01e29;
+				transform: scale(0.9);
+			}
+		}
+	}
+	&__user-elements {
+		display: flex;
+		align-items: center;
+		@media (max-width: 550px) {
+			margin-bottom: 35px;
+		}
+		@media (max-width: 470px) {
+			flex-direction: column;
+			margin-bottom: 25px;
+		}
+	}
+	&__greetings {
+		font-weight: bold;
+		color: #fff;
+		font-size: 18px;
+	}
+	&__car {
+		display: inline-block;
+		width: 40px;
+		color: #fff;
+		position: relative;
+		margin-right: 40px;
+		cursor: pointer;
+		transition: all 0.6s ease 0s;
+		span {
+			position: absolute;
+			top: -20px;
+			left: 30px;
+			background: #f53b49;
+			color: #fff;
+			border-radius: 50%;
+			padding: 10px;
+			transition: all 0.6s ease 0s;
+		}
+		@media (min-width: 992px) {
+			&:hover {
+				color: #f53b49;
+				span {
+					background: #fff;
+					color: #f53b49;
+				}
+			}
+		}
+	}
+	&__menu {
+		margin-right: 15px;
+		@media (max-width: 850px) {
+			margin: 0px 0px 15px 0px;
+		}
+	}
+	&__car-block {
+		@media (max-width: 470px) {
+			flex: 1 1 auto;
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+	&__admin-container {
+		background: #1a1a25;
+		position: absolute;
+		width: 350px;
+		height: 50px;
+		top: 98%;
+		right: 17%;
+		border-radius: 0px 0px 20px 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__user-rating {
+		color: #fff;
+		span {
+			font-size: 28px;
+			font-weight: bold;
+			color: #f53b49;
+		}
+	}
+	&__admin-link {
+		color: #fff;
+		transition: all 0.6s ease 0s;
+		border-bottom: 1px solid #f53b49;
+		@media (min-width: 992px) {
+			&:hover {
+				color: #f53b49;
+				border-bottom: 1px solid #fff;
+			}
+		}
+	}
+}
+.menu-header {
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		li {
+			margin-right: 33px;
+			&:last-child {
+				margin-right: 0;
+			}
+			@media (max-width: 400px) {
+				margin: 0px 25px 15px 0px;
+			}
+		}
+	}
+	&__link {
+		line-height: 140%;
+		color: #fff;
+		transition: all 0.6s ease 0s;
+		@media (min-width: 992px) {
+			&:hover {
+				color: #f53b49;
+			}
+		}
+	}
+}
+.search-text-field {
+	display: flex;
+	label {
+		margin-right: 20px;
+		cursor: pointer;
+	}
+	input {
+		height: 30px;
+		width: 0px;
+		border-radius: 4px;
+		background: rgb(226, 226, 226);
+		transition: all 0.6s ease 0s;
+		padding: 0;
+		border: none;
+		&.active {
+			width: 190px;
+			padding: 5px;
+			border: 2px solid #fff;
+			@media (min-width: 992px) {
+				&:hover {
+					box-shadow: 3px 3px 1px 2px #fff;
+				}
+			}
+		}
+	}
+}

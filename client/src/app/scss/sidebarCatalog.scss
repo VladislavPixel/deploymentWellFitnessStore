@@ -1,0 +1,62 @@
+.sidebar-catalog {
+	background: #2a2c38;
+	border-radius: 0px 8px 8px 0px;
+	display: flex;
+	flex-direction: column;
+	transform: translate(-1000px, 0);
+	transition: all 0.8s ease 0s;
+	flex: 0 1 20%;
+	&__content {
+		padding: 30px 30px 80px 30px;
+		flex: 1 1 auto;
+	}
+	&__footer {
+		background: #1a1a25;
+		height: 60px;
+		border-radius: 0px 0px 8px 0px;
+	}
+	&.active {
+		transform: translate(0px, 0);
+	}
+}
+
+.menu-sidebar-catalog {
+	&__list {
+		li {
+			margin-bottom: 30px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	&__link {
+		font-size: 20px;
+		color: rgb(189, 189, 189);
+		transition: all 0.5s ease 0s;
+		position: relative;
+		padding-left: 30px;
+		display: block;
+		@media (min-width: 992px) {
+			&:hover {
+				color: #fff;
+			}
+		}
+		&:before {
+			content: "";
+			background: url("../iconsForScss/arrowSidebar.svg") no-repeat;
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			top: 0px;
+			left: -15px;
+			transform: rotate(-90deg);
+			transition: all 0.5s ease 0s;
+		}
+		&.active {
+			color: #f53b49;
+			&:before {
+				transform: rotate(0deg);
+			}
+		}
+	}
+}

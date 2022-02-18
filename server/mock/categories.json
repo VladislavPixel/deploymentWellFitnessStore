@@ -1,0 +1,9 @@
+[
+	{"customId": "42q", "name": "Все товары ///", "position": 1},
+	{"customId": "42w", "name": "Для дома", "position": 2},
+	{"customId": "42e", "name": "Тренажеры и фитнес", "position": 3},
+	{"customId": "42r", "name": "Бег", "position": 4},
+	{"customId": "42t", "name": "Плавание, пляж, водный спорт", "position": 5},
+	{"customId": "42y", "name": "Туризм, активный отдых", "position": 6},
+	{"customId": "42u", "name": "Единоборства", "position": 7}
+]

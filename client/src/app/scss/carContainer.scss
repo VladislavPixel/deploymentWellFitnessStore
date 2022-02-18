@@ -1,0 +1,217 @@
+.car-container {
+	flex: 1 1 auto;
+	display: flex;
+	&__column {
+		&:first-child {
+			flex: 0 1 85%;
+		}
+		&:last-child {
+			flex: 0 1 15%;
+		}
+	}
+	&__message {
+		font-weight: bold;
+		font-size: 25px;
+		line-height: 110%;
+		color: #1a1a25;
+		text-align: center;
+		padding: 0px 10px;
+		margin-bottom: 10px;
+		span {
+			color: #f53b49;
+		}
+	}
+}
+.sidebar-car {
+	background: #2a2c38;
+	border-radius: 8px 0px 0px 8px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	&__icon-container {
+		display: flex;
+		justify-content: center;
+	}
+	&__title-total {
+		font-size: 25px;
+		color: #fff;
+		font-weight: bold;
+	}
+	&__sub-title {
+		margin-bottom: 20px;
+		padding: 50px 20px;
+		text-align: center;
+		h3 {
+			font-family: "Open Sans", sans-serif;
+			position: relative;
+			color: #fff;
+			font-size: 3em;
+			font-weight: normal;
+			line-height: 1;
+			padding: 10px 0;
+			margin: 0;
+			display: inline-block;
+			&:before {
+				content: "";
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 80%;
+				height: 200%;
+				border-radius: 50%/30%;
+				border: 6px solid #fff;
+				border-left-color: transparent;
+				border-right-color: transparent;
+			}
+			@media (max-width: 420px) {
+				font-size: 2em;
+			}
+		}
+	}
+	&__guarantee {
+		color: #fff;
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+	&__body {
+		padding: 15px;
+		margin-bottom: 40px;
+		flex: 1 1 auto;
+	}
+	&__icon {
+		padding: 20px;
+		border-radius: 50%;
+		box-shadow: 2px 2px 5px 2px #fff;
+		pointer-events: none;
+		margin-bottom: 40px;
+		img {
+			width: 100px;
+			height: 100px;
+		}
+	}
+	&__button-container {
+		display: flex;
+		justify-content: center;
+	}
+	&__button {
+		transition: all 0.6s ease 0s;
+		pointer-events: none;
+		background: #384255;
+		opacity: 0.6;
+		box-shadow: 3px 3px 4px 5px #f53b49;
+		&.active {
+			background: #f53b49;
+			opacity: 1;
+			pointer-events: auto;
+			box-shadow: none;
+		}
+	}
+	&__flag {
+		background: #1a1a25;
+		height: 60px;
+		border-radius: 0px 0px 0px 8px;
+	}
+}
+.warranty-card {
+	margin: 10px 10px 0px 10px;
+	padding: 25px;
+	background: #384255;
+	border-radius: 6px;
+	&__title {
+		font-size: 30px;
+		line-height: 110%;
+		color: #fff;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	&__sub-title,
+	&__message {
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 150%;
+		color: rgba(247, 247, 247, 0.5);
+	}
+	&__sub-title {
+		margin-bottom: 15px;
+	}
+	&__message {
+		margin-bottom: 30px;
+	}
+}
+.block-offer-warranty {
+	display: flex;
+	margin: 0px -30px;
+	&__column {
+		flex: 0 1 33.333%;
+		padding: 0px 30px;
+		&:first-child,
+		&:nth-child(2) {
+			border-right: 1px solid rgba(144, 156, 181, 0.5);
+		}
+	}
+}
+.card-warranty {
+	&__name {
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 150%;
+		color: #fff;
+		margin-bottom: 15px;
+	}
+	&__conditions {
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 135.94%;
+		color: #fff;
+		margin-bottom: 10px;
+	}
+	&__btn {
+		padding: 8px 12px;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 17px;
+		color: #fff;
+		border: 1px solid rgba(247, 247, 247, 0.5);
+		border-radius: 4px;
+		background: #384255;
+		transition: all 0.6s ease 0s;
+		@media (min-width: 992px) {
+			&:hover {
+				color: #384255;
+				background: #fff;
+				border: 1px solid #384255;
+			}
+		}
+	}
+}
+
+.card-warranty-el {
+	display: flex;
+	margin-bottom: 15px;
+	align-items: center;
+	&__point {
+		padding: 4px 20px 8px;
+		border: 1px solid #909cb5;
+		border-radius: 50%;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 140%;
+		color: #909cb5;
+		cursor: pointer;
+		transition: all 0.6s ease 0s;
+		@media (min-width: 992px) {
+			&:hover {
+				color: #384255;
+				background: #fff;
+				border: 1px solid #384255;
+			}
+		}
+	}
+	&__delimiter {
+		margin: 0px 10px;
+		font-weight: bold;
+		line-height: 17px;
+		color: #fff;
+	}
+}

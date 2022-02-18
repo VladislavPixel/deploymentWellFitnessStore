@@ -1,0 +1,164 @@
+@keyframes show {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.9);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+.brand {
+	width: 100%;
+	padding: 0px 20px;
+	&__title {
+		margin-top: 15px;
+	}
+	&__btn {
+		margin-top: 45px;
+		transition: all 0.6s ease 0s;
+		animation: show 2s infinite ease-in-out;
+		margin-bottom: 30px;
+	}
+	&__head-row,
+	&__sub-head,
+	&__content {
+		margin-bottom: 30px;
+	}
+	&__quote {
+		text-align: center;
+		font-size: 18px;
+		line-height: 150%;
+		margin: 40px 0px;
+		font-weight: bold;
+		font-style: italic;
+	}
+	&__slider {
+		position: relative;
+		overflow: hidden;
+	}
+	&__slide {
+		overflow: hidden;
+		border-radius: 6px;
+	}
+	&__slider-img {
+		position: relative;
+		padding: 0px 0px 80% 0px;
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	&__btn-next,
+	&__btn-prev {
+		transform: translate(0, -50%);
+		top: 50%;
+	}
+	&__btn-prev {
+		left: 10px;
+	}
+	&__btn-next {
+		right: 10px;
+		img {
+			transform: rotate(180deg);
+		}
+	}
+}
+
+.head-brand {
+	display: flex;
+	justify-content: flex-start;
+	border-radius: 6px;
+	overflow: hidden;
+	&__column {
+		flex: 0 1 50%;
+	}
+	&__block {
+		padding: 64px;
+		img {
+			margin-bottom: 15px;
+		}
+	}
+	&__title {
+		font-size: 18px;
+		line-height: 150%;
+		color: #1a1a25;
+		margin-bottom: 30px;
+	}
+	&__link {
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 150%;
+		color: #4b7ee8;
+	}
+	&__images {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		padding: 0px 0px 45% 0px 0px;
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+.sub-head {
+	&__text {
+		font-size: 18px;
+		line-height: 150%;
+		color: #1a1a25;
+		margin-bottom: 20px;
+		&:before {
+			content: "●";
+			margin-right: 7px;
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.content-brand {
+	display: flex;
+	border-radius: 6px;
+	overflow: hidden;
+	&__column {
+		flex: 0 1 50%;
+	}
+	&__block {
+		padding: 40px;
+	}
+	&__el {
+		font-size: 18px;
+		line-height: 150%;
+		color: #1a1a25;
+		margin-bottom: 15px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	&__images {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		padding: 0px 0px 75% 0px;
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
