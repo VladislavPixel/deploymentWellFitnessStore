@@ -5,6 +5,8 @@ const User = require("../models/User")
 const authMiddleware = require("../middleware/auth.middleware")
 const { check, validationResult } = require("express-validator")
 const mongoose = require("mongoose")
+const fs = require("fs")
+const path = require("path")
 
 const router = express.Router({ mergeParams: true })
 
@@ -257,6 +259,17 @@ router
 						}
 					})
 				}
+				fs.unlink(path.join(__dirname, "..", existingGood.pathServerImage), (err) => {
+					if (err) {
+						console.log(chalk.red.inverse(`Возникла ошибка при удалении изображения. Путь до нее: ${existingGood.pathServerImage}`), err)
+						return res.status(500).send({
+							error: {
+								message: "Ошибка при удалении изображения. Что-то пошло не так.",
+								code: 500
+							}
+						})
+					}
+				})
 				await existingGood.remove()
 
 				res.status(200).send(null)
